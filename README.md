@@ -26,13 +26,7 @@
 <br/><br/>
 
 <img src="https://komarev.com/ghpvc/?username=ItzMeBeasT&style=for-the-badge&color=B87333&label=PROFILE+VIEWS" alt="Profile views"/>
-
- 
-
 <img src="https://img.shields.io/github/followers/ItzMeBeasT?style=for-the-badge&color=B87333&labelColor=0D0D0D&label=FOLLOWERS" alt="GitHub followers"/>
-
- 
-
 <img src="https://img.shields.io/github/stars/ItzMeBeasT?style=for-the-badge&color=D99B63&labelColor=0D0D0D&label=TOTAL+STARS&affiliations=OWNER" alt="GitHub stars"/>
 
 </div>
@@ -100,15 +94,9 @@ const regan = {
 <a href="https://github.com/ItzMeBeasT">
 <img src="https://img.shields.io/badge/GitHub-ItzMeBeasT-0D0D0D?style=for-the-badge&logo=github&logoColor=F5F5F5" alt="GitHub"/>
 </a>
-
- 
-
 <a href="https://www.linkedin.com/in/regan-jesuraju/">
 <img src="https://img.shields.io/badge/LinkedIn-Regan%20Jesuraju-0D0D0D?style=for-the-badge&logo=linkedin&logoColor=D99B63" alt="LinkedIn"/>
 </a>
-
- 
-
 <a href="http://regan-jesuraju-portfolio-2026.s3-website-ap-southeast-2.amazonaws.com/">
 <img src="https://img.shields.io/badge/Portfolio-Live-0D0D0D?style=for-the-badge&logo=googlechrome&logoColor=D99B63" alt="Portfolio"/>
 </a>
