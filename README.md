@@ -1,114 +1,78 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0D0D,100:B87333&height=180&section=header&text=Regan&fontSize=54&fontColor=F5F5F5&fontAlignY=40&animation=fadeIn"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0D0D,100:B87333&height=190&section=header&text=REGAN&fontSize=58&fontColor=F5F5F5&fontAlignY=38&desc=Full-Stack%20Software%20Engineer%20%C2%B7%20AI%20%C2%B7%20Cloud&descSize=18&descColor=D99B63&descAlignY=60&animation=fadeIn"/>
 
-<h3>Software Engineer — Systems, Cloud & Reliability</h3>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=3200&pause=1000&color=B87333&center=true&vCenter=true&width=650&lines=Building+products+end-to-end;Full-stack+systems+with+real-world+architecture;AI-powered+applications%2C+not+AI+wrappers;From+frontend+to+backend+to+cloud;Java+%E2%80%A2+Python+%E2%80%A2+AI+%E2%80%A2+AWS" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&duration=3200&pause=900&color=B87333&center=true&vCenter=true&width=650&lines=Software+first%2C+infrastructure+by+necessity;Cloud+%26+DevOps+as+a+specialization%2C+not+the+whole+story;Exploring+AI+as+an+engineering+tool%2C+not+a+buzzword" />
+<br/><br/>
 
 <a href="https://www.linkedin.com/in/regan-jesuraju/"><img src="https://img.shields.io/badge/LinkedIn-0D0D0D?style=for-the-badge&logo=linkedin&logoColor=B87333"/></a>
 <a href="https://medium.com/@regannbis"><img src="https://img.shields.io/badge/Medium-0D0D0D?style=for-the-badge&logo=medium&logoColor=D99B63"/></a>
 <a href="mailto:regannbis@gmail.com"><img src="https://img.shields.io/badge/Email-0D0D0D?style=for-the-badge&logo=gmail&logoColor=B87333"/></a>
+<a href="http://regan-jesuraju-portfolio-2026.s3-website-ap-southeast-2.amazonaws.com"><img src="https://img.shields.io/badge/Portfolio-0D0D0D?style=for-the-badge&logo=googlechrome&logoColor=D99B63"/></a>
 
 </div>
 
 <br/>
 
-I build software, then go find out how it actually runs in production — which is how Linux, containers, and Kubernetes ended up permanently in my stack. I'd rather ship three systems I understand end-to-end than ten I've only glued together.
+> **I build end-to-end software: interfaces, APIs, data, AI-powered features, and the cloud deployment that puts them in front of users.**
+
+I'm a Computer Engineering student working toward a career as a software engineer. My focus is full-stack development: the whole path from what a user sees to how the data is modelled and served.
+
+AI and cloud sit on top of that foundation. AI is how I make an application do something a static one can't; cloud is how I ship it. I'd rather build a few complete products I understand end-to-end than assemble many I've only glued together.
 
 <br/>
 
-## Featured engineering
+## What I Build
 
-### Kubernetes Monitoring Platform
-
-Most monitoring setups stop at `docker-compose up`. This one is built to answer a harder question: *what does it take to run observability safely inside a cluster, not just visibly?*
-
-It started as a Docker Compose stack — Prometheus, Grafana, and Node Exporter, version-pinned, with credentials externalized rather than hardcoded. Once the scrape targets were verified and the dashboards were auto-provisioning correctly, I migrated it onto Kubernetes and treated security as part of the design, not an afterthought bolted on at the end:
-
-- **RBAC + Secrets** — scoped service accounts instead of default-namespace access
-- **Default-deny NetworkPolicy** — with explicit egress/ingress rules carved out for Prometheus specifically, rather than one blanket allow rule
-- **Persistent storage** — PVCs so metrics survive pod restarts
-- **CI validation** — every manifest is checked with `kubeconform` before it can merge
-
-```mermaid
-flowchart LR
-    subgraph Cluster["Kubernetes Cluster"]
-        direction LR
-        NE[Node Exporter] --> P[Prometheus]
-        CA[cAdvisor] --> P
-        P --> G[Grafana]
-        P --> AM[Alertmanager]
-        P -.persists to.-> PVC[(PVC)]
-    end
-    RBAC[RBAC + Secrets] -.guards.-> Cluster
-    NP[Default-deny NetworkPolicy] -.guards.-> Cluster
-    CI[CI: kubeconform validation] -->|on push| Cluster
-
-    style Cluster fill:#171717,stroke:#B87333,color:#F5F5F5
-    style RBAC fill:#0D0D0D,stroke:#D99B63,color:#F5F5F5
-    style NP fill:#0D0D0D,stroke:#D99B63,color:#F5F5F5
-    style CI fill:#0D0D0D,stroke:#D99B63,color:#F5F5F5
-    style PVC fill:#0D0D0D,stroke:#D99B63,color:#F5F5F5
-```
-
-`Kubernetes` `Docker` `Prometheus` `Grafana` `Alertmanager` `RBAC` `NetworkPolicies` `CI/CD`
-
-<!-- Replace the line below with your actual repo URL -->
-**[→ View repository](https://github.com/ItzMeBeasT/REPLACE-WITH-REPO-NAME)**
-
-<br/>
-
-## Other builds
-
-| Project | Engineering angle |
+| | |
 |---|---|
-| **AI Incident Copilot** | Built and shipped inside a 36-hour hackathon window with a deliberately locked scope — the constraint was time, and the deliverable had to work, not be exhaustive. |
-| **Cloud Computing Internship (Corizo)** | Hands-on AWS fundamentals — IAM, storage, hosting — through to a working static site deployed on S3. |
-| **Gemini LifeOS** | An AI-assisted app that turns daily reflection into structured next steps, built for the Personal Gemini Journal challenge. |
+| **Full-Stack Engineering** | Frontend, backend APIs, authentication, databases, system architecture, deployment. *This is the core of what I do.* |
+| **AI Engineering** | LLM integrations, AI-assisted applications, structured outputs, intelligent automation and productivity tools. |
+| **Cloud Engineering** | AWS, deployment, containers and infrastructure fundamentals, used to ship and run the software I build. |
 
 <br/>
 
-## What I work with
+## Featured Projects
 
-**Languages & foundations** — Java, Python, Bash, and ongoing DSA practice
-
-**Systems & cloud** — Linux (Fedora, daily driver), AWS, Docker, Kubernetes
-
-**Observability & automation** — Prometheus, Grafana, GitHub Actions
-
-**Data & networking** — MySQL, Cisco networking fundamentals
-
-<div align="center">
-
-![Java](https://img.shields.io/badge/Java-0D0D0D?style=for-the-badge&logo=openjdk&logoColor=B87333)
-![Python](https://img.shields.io/badge/Python-0D0D0D?style=for-the-badge&logo=python&logoColor=D99B63)
-![Linux](https://img.shields.io/badge/Linux-0D0D0D?style=for-the-badge&logo=linux&logoColor=B87333)
-![AWS](https://img.shields.io/badge/AWS-0D0D0D?style=for-the-badge&logo=amazon-aws&logoColor=D99B63)
-![Docker](https://img.shields.io/badge/Docker-0D0D0D?style=for-the-badge&logo=docker&logoColor=B87333)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-0D0D0D?style=for-the-badge&logo=kubernetes&logoColor=D99B63)
-![Prometheus](https://img.shields.io/badge/Prometheus-0D0D0D?style=for-the-badge&logo=prometheus&logoColor=B87333)
-![Grafana](https://img.shields.io/badge/Grafana-0D0D0D?style=for-the-badge&logo=grafana&logoColor=D99B63)
-![MySQL](https://img.shields.io/badge/MySQL-0D0D0D?style=for-the-badge&logo=mysql&logoColor=B87333)
-
-</div>
-
-<br/>
-
-## Current focus
-
-Software engineering fundamentals (Java, DSA) running in parallel with infrastructure depth — Linux administration first, then cloud architecture, then networking and Kubernetes administration.
-
-| Certification | Area | Status |
+| Project | Purpose | Engineering highlights |
 |---|---|---|
-| RHCSA | Linux administration | In progress |
-| AWS Solutions Architect Associate | Cloud architecture | Planned |
-| CCNA | Networking | Planned |
-| CKA | Kubernetes administration | Planned |
+| **AI Incident Copilot** | An AI-assisted tool for working through incidents. | Designed, built and shipped within a 36-hour hackathon window. Scope was deliberately locked so that the delivered product worked end-to-end rather than being exhaustive. |
+| **Gemini LifeOS** | Turns daily reflection into structured next steps. | AI-assisted application built with Gemini for the Personal Gemini Journal challenge. The model output drives concrete, actionable results rather than free-form chat. |
+| **Portfolio Website** | Personal site presenting my work. | Deployed as a static site on AWS S3 website hosting. Built as hands-on practice with IAM, storage and hosting during a cloud computing internship. |
 
 <br/>
 
-## Activity
+## Tech Stack
+
+| Area | Technologies |
+|---|---|
+| **Languages** | Java · Python |
+| **Data** | MySQL |
+| **AI** | Gemini |
+| **Cloud & Delivery** | AWS (IAM, S3) · Docker · GitHub Actions |
+
+<br/>
+
+## Current Engineering Focus
+
+- **Java & Data Structures and Algorithms**: ongoing, structured practice alongside project work
+- **Backend engineering**: API design, authentication, data modelling
+- **System design fundamentals**: reasoning about components, trade-offs and failure modes
+- **Full-stack products with AI features**: applying all of the above in complete applications
+
+<br/>
+
+## Engineering Principles
+
+- **Build end-to-end.** A feature isn't done until it works from interface to data and is deployed.
+- **Understand the system, not just the framework.** Frameworks change; the underlying model doesn't.
+- **Prefer useful software over tutorial projects.** Real constraints teach more than guided exercises.
+- **Learn by shipping.** Scope tightly, deliver something that works, then improve it.
+
+<br/>
+
+## GitHub Activity
 
 <div align="center">
 
@@ -124,8 +88,14 @@ Software engineering fundamentals (Java, DSA) running in parallel with infrastru
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/regan-jesuraju/"><img src="https://img.shields.io/badge/Connect-0D0D0D?style=for-the-badge&logo=linkedin&logoColor=B87333"/></a>
-<a href="https://medium.com/@regannbis"><img src="https://img.shields.io/badge/Read_my_writing-0D0D0D?style=for-the-badge&logo=medium&logoColor=D99B63"/></a>
+*Building software worth understanding.*
+
+<br/>
+
+<a href="https://www.linkedin.com/in/regan-jesuraju/">LinkedIn</a> &nbsp;·&nbsp;
+<a href="http://regan-jesuraju-portfolio-2026.s3-website-ap-southeast-2.amazonaws.com">Portfolio</a> &nbsp;·&nbsp;
+<a href="https://medium.com/@regannbis">Medium</a> &nbsp;·&nbsp;
+<a href="mailto:regannbis@gmail.com">Email</a>
 
 <br/><br/>
 
