@@ -11,29 +11,18 @@
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&pause=1200&color=D99B63&center=true&vCenter=true&multiline=true&repeat=true&width=760&height=85&lines=Building+software+end-to-end.;Full-Stack+Engineer+%7C+AI+%7C+Cloud;Frontend+%E2%86%92+API+%E2%86%92+Data+%E2%86%92+Deployment" alt="Engineering focus"/>
 
 <br/><br/>
-
 <a href="https://www.linkedin.com/in/regan-jesuraju/">
 <img src="https://img.shields.io/badge/LinkedIn-0D0D0D?style=for-the-badge&logo=linkedin&logoColor=D99B63" alt="LinkedIn"/>
 </a>
-
- 
-
 <a href="http://regan-jesuraju-portfolio-2026.s3-website-ap-southeast-2.amazonaws.com/">
 <img src="https://img.shields.io/badge/Portfolio-0D0D0D?style=for-the-badge&logo=googlechrome&logoColor=D99B63" alt="Portfolio"/>
 </a>
-
- 
-
 <a href="https://medium.com/@regannbis">
 <img src="https://img.shields.io/badge/Medium-0D0D0D?style=for-the-badge&logo=medium&logoColor=D99B63" alt="Medium"/>
 </a>
-
- 
-
 <a href="mailto:regannbis@gmail.com">
 <img src="https://img.shields.io/badge/Email-0D0D0D?style=for-the-badge&logo=gmail&logoColor=D99B63" alt="Email"/>
 </a>
-
 <br/><br/>
 
 <img src="https://komarev.com/ghpvc/?username=ItzMeBeasT&style=for-the-badge&color=B87333&label=PROFILE+VIEWS" alt="Profile views"/>
