@@ -285,7 +285,6 @@ I'm deliberately building a smaller number of **deeper projects** instead of fil
 <img src="https://img.shields.io/badge/Python-0D0D0D?style=for-the-badge&logo=python&logoColor=D99B63" alt="Python"/>
 <img src="https://img.shields.io/badge/JavaScript-0D0D0D?style=for-the-badge&logo=javascript&logoColor=D99B63" alt="JavaScript"/>
 <img src="https://img.shields.io/badge/TypeScript-0D0D0D?style=for-the-badge&logo=typescript&logoColor=D99B63" alt="TypeScript"/>
-
 <br/><br/>
 
 ### Frontend
@@ -293,7 +292,6 @@ I'm deliberately building a smaller number of **deeper projects** instead of fil
 <img src="https://img.shields.io/badge/React-0D0D0D?style=for-the-badge&logo=react&logoColor=D99B63" alt="React"/>
 <img src="https://img.shields.io/badge/Vite-0D0D0D?style=for-the-badge&logo=vite&logoColor=D99B63" alt="Vite"/>
 <img src="https://img.shields.io/badge/Tailwind-0D0D0D?style=for-the-badge&logo=tailwindcss&logoColor=D99B63" alt="Tailwind CSS"/>
-
 <br/><br/>
 
 ### Backend & Data
@@ -303,14 +301,12 @@ I'm deliberately building a smaller number of **deeper projects** instead of fil
 <img src="https://img.shields.io/badge/MongoDB-0D0D0D?style=for-the-badge&logo=mongodb&logoColor=D99B63" alt="MongoDB"/>
 <img src="https://img.shields.io/badge/MySQL-0D0D0D?style=for-the-badge&logo=mysql&logoColor=D99B63" alt="MySQL"/>
 <img src="https://img.shields.io/badge/Firestore-0D0D0D?style=for-the-badge&logo=firebase&logoColor=D99B63" alt="Firestore"/>
-
 <br/><br/>
 
 ### AI
 
 <img src="https://img.shields.io/badge/Gemini-0D0D0D?style=for-the-badge&logo=google&logoColor=D99B63" alt="Gemini"/>
 <img src="https://img.shields.io/badge/Structured%20Output-0D0D0D?style=for-the-badge&logoColor=D99B63" alt="Structured output"/>
-
 <br/><br/>
 
 ### Cloud & Delivery
